@@ -8,7 +8,7 @@
 }
 body {
   background-color: black;
-  background-image: url(bg.png);
+  background-image: url(bg2.png);
   background-size: cover;
 }
 nav {
@@ -87,6 +87,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;
+  text-align: center;
 }
 .footer-links {
   display: inline-flex;
@@ -116,4 +117,31 @@ footer {
     background-size: 100%;
     background-position: 0 83%;
   }
+}
+@media (max-width: 470px) {
+  .text {
+    margin-bottom: 50px;
+    margin-left: 4%;
+  margin-right: 4%;
+  }
+  .title{
+    font-size: 35px;
+  }
+  .logo_container{
+    height: auto;
+    margin-bottom: 26px;
+  }
+  .desc{
+    font-size: 15px;
+  }
+}
+.bt a:active{
+    background: linear-gradient(180deg, black 0%, #9d4edd 100%);
+    border-radius: 44px;
+    transition-duration: 0.1s;
+    text-decoration: none;
+}
+.bt a:hover{
+    background: linear-gradient(180deg, black 0%, #9d4edd 100%);
+    border-radius: 44px;
 }
